@@ -1,0 +1,17 @@
+body{
+    margin:0;
+    background:#001f4e; /* bright green */
+}
+
+.photo-grid{
+    display:grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap:80px; /* lots of space between images */
+    padding:80px;
+}
+
+.photo-grid img{
+    width:100%;
+    aspect-ratio:auto; /* makes them square */
+    object-fit:cover;
+}
